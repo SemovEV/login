@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сайт</title>
     <link rel="stylesheet" href="./mainStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <script src="./h1.js" defer></script>
     <script src="./nav.js" defer></script>
+    <script src="./order.js" defer></script>
 </head>
 <body>
     <div class="navigation navigation_active">
@@ -27,9 +32,65 @@
     </div>
     <div class="wrapper">
         <header>
-            <h1>Добро пожаловать на сайт, друг</h1>
-            <div class="basket"></div>
+            <h1>Добро пожаловать на сайт, </h1>
+            <div class="basket">
+                <img src="./img/basket.png" alt="basket">
+                <div class="col_item">0</div>
+            </div>
         </header>
+        <div class="background_section">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <div class="bg3"></div>
+        </div>
+        <div class="items">
+            <div class="cards">
+                <div class="card">
+                    <img src="https://user72902.clients-cdnnow.ru/localStorage/news/7a/a4/51/11/7aa45111_resizedScaled_1020to574.jpg" alt="">
+                    <div class="descrip_card">
+                        <h2>Rolls-Royce</h2>
+                        <p class = "descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis commodi fugit dolorem, aliquam sed impedit molestias dolor. Voluptate error fugit quibusdam, qui dolor eos illo cum enim laboriosam ipsa.</p>
+                        <p class="price">Цена: 20 000 000 руб.</p>
+                        <div class="center">
+                            <button class="order">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.autostat.ru/application/includes/blocks/big_photo/images/cache/000/093/519/d7c99968-670-0.jpg" alt="">
+                    <div class="descrip_card">
+                        <h2>Tesla</h2>
+                        <p class = "descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis commodi fugit dolorem, aliquam sed impedit molestias dolor. Voluptate error fugit quibusdam, qui dolor eos illo cum enim laboriosam ipsa.</p>
+                        <p class="price">Цена: 30 000 000 руб.</p>
+                        <div class="center">
+                            <button class="order">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.avtovzglyad.ru/media/article/DFDFDF.jpg.740x555_q85_box-0%2C0%2C740%2C555_crop_detail_upscale.jpg" alt="">
+                    <div class="descrip_card">
+                        <h2>Lamborghini</h2>
+                        <p class = "descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis commodi fugit dolorem, aliquam sed impedit molestias dolor. Voluptate error fugit quibusdam, qui dolor eos illo cum enim laboriosam ipsa.</p>
+                        <p class="price">Цена: 40 000 000 руб.</p>
+                        <div class="center">
+                            <button class="order">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://www.avtovzglyad.ru/media/article/vaz-2107.jpg.740x555_q85_box-109%2C70%2C1459%2C1080_crop_detail_upscale.jpg" alt="">
+                    <div class="descrip_card">
+                        <h2>ВАЗ 2107</h2>
+                        <p class = "descrip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum facilis commodi fugit dolorem, aliquam sed impedit molestias dolor. Voluptate error fugit quibusdam, qui dolor eos illo cum enim laboriosam ipsa.</p>
+                        <p class="price">Цена: 200 000 руб.</p>
+                        <div class="center">
+                            <button class="order">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
